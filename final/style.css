@@ -1,0 +1,100 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+
+}
+.main{
+	background: url("angas.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+
+}
+nav{
+	width: 80%;
+	position: sticky;
+	margin: 20px auto;
+	z-index: 1;
+	display: flex;
+	align-items: center;
+}
+.logo{
+	flex-basis: 20%;
+}
+.logo img{
+	width: 150px;
+}
+.nav-link{
+	flex: 1;
+	text-align: right;
+}
+.nav-link ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+}
+.nav-link ul li a{
+	color: darkred;
+	text-decoration: none;
+}
+.information{
+	width: 1000px;
+	height: 1000px;
+	position: absolute;
+	top: 50%;
+	left: -10;
+	transform: translateY(-50%);
+}
+
+
+.main h1{
+	position: absolute;
+	font-family: Times New Roman;
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	padding-top: 100px;
+
+
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.column {
+  float: center;
+  width: 33.33%;
+  padding: 5px;
+}
+.go-back-button a{
+    text-decoration: none;
+    padding: 6px 15px;
+    background: #deb4bc;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 1.5em;
+}
+.go-back-button a:hover{
+        background: #908ff1;
+    color: #fff;
+}
+ h1{
+ 	top: 50%;
+ 	transform: translateY(-50%);
+	position: absolute;
+	font-family: Bebas Neue;
+	font-size:15px;
+	color: black;
+	text-align: center;
+	padding-top: 100px;
+}
+h2{
+	position: absolute;
+	font-family: Bebas Neue;
+	font-size: 15px;
+	color: black;
+	text-align: center;
+	padding-top: 120px;
+}
